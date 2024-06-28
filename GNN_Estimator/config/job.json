@@ -1,0 +1,75 @@
+{
+    "column_info": {
+        "cast_info": [
+            "person_id",
+            "role_id"
+        ],
+        "movie_keyword": [
+            "keyword_id"
+        ],
+        "movie_companies": [
+            "company_id",
+            "company_type_id"
+        ],
+        "title": [
+            "kind_id",
+            "production_year"
+        ],
+        "movie_info_idx": [
+            "info_type_id"
+        ],
+        "movie_info": [
+            "info_type_id"
+        ]
+    },
+    "minmax_info": {
+        "cast_info": {
+            "person_id": [
+                1,
+                4061926
+            ],
+            "role_id": [
+                1,
+                11
+            ]
+        },
+        "movie_keyword": {
+            "keyword_id": [
+                1,
+                134170
+            ]
+        },
+        "movie_companies": {
+            "company_id": [
+                1,
+                234997
+            ],
+            "company_type_id": [
+                1,
+                2
+            ]
+        },
+        "title": {
+            "kind_id": [
+                1,
+                7
+            ],
+            "production_year": [
+                1880,
+                2019
+            ]
+        },
+        "movie_info_idx": {
+            "info_type_id": [
+                99,
+                113
+            ]
+        },
+        "movie_info": {
+            "info_type_id": [
+                1,
+                110
+            ]
+        }
+    }
+}

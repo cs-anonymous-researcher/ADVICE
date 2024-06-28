@@ -1,0 +1,133 @@
+{
+    "column_info": {
+        "posts": [
+            "posttypeid",
+            "creationdate",
+            "score",
+            "commentcount"
+        ],
+        "votes": [
+            "votetypeid",
+            "creationdate"
+        ],
+        "badges": [
+            "date"
+        ],
+        "users": [
+            "reputation",
+            "creationdate",
+            "views",
+            "upvotes",
+            "downvotes"
+        ],
+        "posthistory": [
+            "posthistorytypeid",
+            "creationdate"
+        ],
+        "postlinks": [
+            "creationdate",
+            "linktypeid"
+        ],
+        "tags": [
+            "count"
+        ],
+        "comments": [
+            "score",
+            "creationdate"
+        ]
+    },
+    "minmax_info": {
+        "posts": {
+            "posttypeid": [
+                1,
+                7
+            ],
+            "creationdate": [
+                -45826728,
+                131249363
+            ],
+            "score": [
+                -19,
+                192
+            ],
+            "commentcount": [
+                0,
+                45
+            ]
+        },
+        "votes": {
+            "votetypeid": [
+                1,
+                16
+            ],
+            "creationdate": [
+                -45878400,
+                131241600
+            ]
+        },
+        "badges": {
+            "date": [
+                157147,
+                131250688
+            ]
+        },
+        "users": {
+            "reputation": [
+                1,
+                87393
+            ],
+            "creationdate": [
+                111326,
+                131245304
+            ],
+            "views": [
+                0,
+                20932
+            ],
+            "upvotes": [
+                0,
+                11442
+            ],
+            "downvotes": [
+                0,
+                1920
+            ]
+        },
+        "posthistory": {
+            "posthistorytypeid": [
+                1,
+                38
+            ],
+            "creationdate": [
+                -45826728,
+                131252053
+            ]
+        },
+        "postlinks": {
+            "creationdate": [
+                312453,
+                131230471
+            ],
+            "linktypeid": [
+                1,
+                3
+            ]
+        },
+        "tags": {
+            "count": [
+                1,
+                7244
+            ]
+        },
+        "comments": {
+            "score": [
+                0,
+                90
+            ],
+            "creationdate": [
+                -45825281,
+                131249067
+            ]
+        }
+    }
+}

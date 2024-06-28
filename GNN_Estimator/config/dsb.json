@@ -1,0 +1,133 @@
+{
+    "column_info": {
+        "store_sales": [
+            "ss_ticket_number",
+            "ss_quantity"
+        ],
+        "catalog_sales": [
+            "cs_order_number",
+            "cs_quantity"
+        ],
+        "web_sales": [
+            "ws_order_number",
+            "ws_quantity"
+        ],
+        "store_returns": [
+            "sr_ticket_number",
+            "sr_return_quantity"
+        ],
+        "catalog_returns": [
+            "cr_order_number",
+            "cr_return_quantity"
+        ],
+        "web_returns": [
+            "wr_order_number",
+            "wr_return_quantity"
+        ],
+        "customer_demographics": [
+            "cd_purchase_estimate",
+            "cd_dep_count",
+            "cd_dep_employed_count",
+            "cd_dep_college_count"
+        ],
+        "customer": [
+            "c_birth_day",
+            "c_birth_month",
+            "c_birth_year"
+        ]
+    },
+    "minmax_info": {
+        "store_sales": {
+            "ss_ticket_number": [
+                1,
+                1200000
+            ],
+            "ss_quantity": [
+                1,
+                100
+            ]
+        },
+        "catalog_sales": {
+            "cs_order_number": [
+                1,
+                800000
+            ],
+            "cs_quantity": [
+                1,
+                100
+            ]
+        },
+        "web_sales": {
+            "ws_order_number": [
+                1,
+                300000
+            ],
+            "ws_quantity": [
+                1,
+                100
+            ]
+        },
+        "store_returns": {
+            "sr_ticket_number": [
+                1,
+                1200000
+            ],
+            "sr_return_quantity": [
+                1,
+                100
+            ]
+        },
+        "catalog_returns": {
+            "cr_order_number": [
+                1,
+                800000
+            ],
+            "cr_return_quantity": [
+                1,
+                100
+            ]
+        },
+        "web_returns": {
+            "wr_order_number": [
+                1,
+                300000
+            ],
+            "wr_return_quantity": [
+                1,
+                100
+            ]
+        },
+        "customer_demographics": {
+            "cd_purchase_estimate": [
+                500,
+                10000
+            ],
+            "cd_dep_count": [
+                0,
+                6
+            ],
+            "cd_dep_employed_count": [
+                0,
+                6
+            ],
+            "cd_dep_college_count": [
+                0,
+                6
+            ]
+        },
+        "customer": {
+            "c_birth_day": [
+                1,
+                31
+            ],
+            "c_birth_month": [
+                1,
+                12
+            ],
+            "c_birth_year": [
+                1925,
+                1993
+            ]
+        }
+    }
+}
